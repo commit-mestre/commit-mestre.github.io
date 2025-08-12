@@ -1,0 +1,79 @@
+name: Novo Contato
+description: Preencha este formulário para criar um novo contato.
+title: "[Contato] Nome - Título"
+body:
+  - type: input
+    id: nome
+    attributes:
+      label: Nome
+      description: Informe seu nome completo.
+      placeholder: "Seu nome"
+    validations:
+      required: true
+
+  - type: input
+    id: titulo
+    attributes:
+      label: Título
+      description: Escreva um título resumido, como "Desenvolvedor Python", "Engenheiro de Dados", etc.
+      placeholder: "Seu título ou papel"
+    validations:
+      required: true
+
+  - type: textarea
+    id: sobre
+    attributes:
+      label: Sobre
+      description: Descreva sobre você, suas habilidades, interesses e o que você faz. Mantenha um tom amigável e profissional.
+      placeholder: "Fale sobre você"
+    validations:
+      required: true
+
+  - type: input
+    id: youtube
+    attributes:
+      label: YouTube
+      description: URL do seu canal no YouTube.
+      placeholder: "https://youtube.com/seucanal"
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      description: URL do seu perfil no GitHub.
+      placeholder: "https://github.com/seuperfil"
+
+  - type: input
+    id: linkedin
+    attributes:
+      label: LinkedIn
+      description: URL do seu perfil no LinkedIn.
+      placeholder: "https://linkedin.com/in/seuperfil"
+
+  - type: input
+    id: bluesky
+    attributes:
+      label: Bluesky
+      description: URL do seu perfil no Bluesky.
+      placeholder: "https://bluesky.social/seuperfil"
+
+  - type: input
+    id: instagram
+    attributes:
+      label: Instagram
+      description: URL do seu perfil no Instagram.
+      placeholder: "https://instagram.com/seuperfil"
+
+  - type: input
+    id: tiktok
+    attributes:
+      label: TikTok
+      description: URL do seu perfil no TikTok.
+      placeholder: "https://tiktok.com/@seuperfil"
+
+  - type: input
+    id: twitter
+    attributes:
+      label: X (Twitter)
+      description: URL do seu perfil no X (Twitter).
+      placeholder: "https://twitter.com/seuperfil"
