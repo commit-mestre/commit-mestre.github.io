@@ -1,6 +1,9 @@
-name: Novo Contato
-description: Preencha este formulário para criar um novo contato.
+name: Novo Membro
+about: Requerir entrar na comunidade
 title: "[Contato] Nome - Título"
+labels: ''
+assignees: ''
+description: Preencha este formulário para criar um novo contato.
 body:
   - type: input
     id: nome
@@ -28,6 +31,22 @@ body:
       placeholder: "Fale sobre você"
     validations:
       required: true
+
+  - type: input
+    id: foto
+    attributes:
+      label: Foto de Perfil
+      description: Forneça a URL de uma imagem para ser usada como sua foto de perfil. Você pode hospedar a imagem em um serviço como Imgur, GitHub ou outro de sua preferência.
+      placeholder: "https://exemplo.com/suafoto.jpg"
+    validations:
+      required: true
+
+  - type: input
+    id: site
+    attributes:
+      label: Site Pessoal
+      description: URL do seu site pessoal ou portfólio.
+      placeholder: "https://seusite.com"
 
   - type: input
     id: youtube
