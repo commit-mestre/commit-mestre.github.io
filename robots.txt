@@ -1,0 +1,8 @@
+# Commit Mestre landing (GitHub Pages) + member blogs (Contraponto)
+# https://www.commit-mestre.dev/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.commit-mestre.dev/sitemap.xml
+Sitemap: https://blogs.commit-mestre.dev/sitemap.xml
